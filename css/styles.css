@@ -1,0 +1,232 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    margin: 4%;
+    padding: 2% 15%;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+p
+{
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+a
+{
+    color: #b13144;
+}
+a:hover
+{
+    color: #6d1c28;
+}
+
+/* Navbar */
+
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 900;
+}
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+.nav-item
+{
+    padding: 0 1.125rem;
+}
+.nav-link
+{
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    color: white; !important /* ghostwhite ivory */
+}
+.dwnld-btn
+{
+    margin: 5% 3% 5% 0 /* because padding will increase internal space IN the button */
+}
+
+/* Title Section */
+
+#title
+{
+    background-color: #6d1c28;
+    color: white;
+}
+.title-img
+{
+    margin-left: 7rem;
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+/* Features Section */
+
+.ft-row
+{
+    text-align: center;
+}
+.icon
+{
+    color: #e03d56;
+    font-size: 4rem; /* or add fa-4x in the html class */
+    margin: 0 2rem 2rem 2rem;
+}
+.icon:hover
+{
+    color: #8b2535;
+}
+#features
+{
+    padding: 8% 12% 6%;
+    background-color: whitesmoke    ;
+    position: relative;
+    margin: 0 auto;
+    /* you don't need to add a z index; ref flowchart */
+}
+.cols
+{
+    padding: 3%;
+}
+.ft-h3
+{
+    margin-bottom: 8%;
+}
+
+/* Testimonials section */
+
+#testimonials
+{
+    text-align: center;
+    background-color: #8b2535;
+    color: white;
+}
+.test-img
+{
+    width: 14%;
+    border-radius: 100%;
+    margin-bottom: 4%;
+}
+.carousel.item
+{
+    padding: 5% 15% 5%;
+}
+
+/* Press Section */
+
+#press
+{
+    background-color: #8b2535;
+    text-align: center;
+    padding: 2% 0 0;
+}
+.press-logo
+{
+    width: 16%;
+    margin: 6% 3%;
+}
+
+/* Pricing Section */
+
+#pricing
+{
+    padding: 4rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.pricing-col
+{
+    margin: 2% auto 4%;
+    padding: auto;
+}
+.p-line
+{
+   font-weight: 700;
+   margin:0;
+}
+.p-line2
+{
+    margin: 0 0 5% 0;
+}
+
+/* Call To Action */
+
+#cta
+{
+    background-color: #b13144;
+    color: white;
+    text-align: center;
+    padding: 5% 0 0;
+}
+.dwnld-btn-cta
+{
+    margin: 3% 1% 5%;
+}
+
+/* Footer */
+
+#footer
+{
+    background-color: white;
+    text-align: center;
+    margin: 4%;
+}
+.sm-icons
+{
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/* CSS Media Query Breakpoint */
+
+@media (max-width: 1028px)
+{
+    .title-img
+    {
+        margin-top: 1rem;
+        width: 50%; 
+        transform: rotate(0);
+        position: relative;
+        display: block;
+    }
+    #title
+    {
+        text-align: center;
+    }
+    .container-fluid
+    {
+        padding: 3% 15% 7%;
+        text-align: center;
+    }
+    .title-img-col
+    {
+        margin-top: 1rem;
+    }
+}
+
